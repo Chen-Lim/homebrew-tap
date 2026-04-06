@@ -1,0 +1,24 @@
+# 1. IDEs & Editors
+
+# Zed
+.zed/
+
+# JetBrains
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# 2. OS & Environment
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+.AppleDouble
+
+# Windows
+Thumbs.db
+ehthumbs.db
