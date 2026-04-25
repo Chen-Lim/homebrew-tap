@@ -1,17 +1,15 @@
 class Ahr < Formula
   desc "Apple Health Resonator: 高性能苹果健康数据解析工具"
-  homepage "https://github.com/Chen-Lim/Apple-Health-Resonator-CLI/archive/refs/tags/v0.3.0.tar.gz"
-
-  url "https://github.com/Chen-Lim/Apple-Health-Resonator-CLI/archive/refs/tags/v0.3.0.tar.gz"
-  version "0.3.0"
-
-  sha256 "2bd71907d02497ed8c2baae7c56b38558ef2fae7f00c17b3a0e697266d1d7b49"
+  homepage "https://github.com/Chen-Lim/Apple-Health-Resonator-CLI"
+  url "https://github.com/Chen-Lim/Apple-Health-Resonator-CLI/releases/download/v0.3.1/ahr-macos-arm64"
+  version "0.3.1"
+  sha256 "95e36f8896f1de6aadc5a33e4c3445e9e21c0ac8f6b263702179ade84ff1a302"
   license "MIT"
 
-  depends_on "rust" => :build
+  depends_on arch: :arm64
 
   def install
-    system "cargo", "install", *std_cargo_args
+    bin.install "ahr-macos-arm64" => "ahr"
   end
 
   test do
