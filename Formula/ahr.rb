@@ -1,9 +1,9 @@
 class Ahr < Formula
   desc "Apple Health Resonator: 高性能苹果健康数据解析工具"
   homepage "https://github.com/Chen-Lim/Apple-Health-Resonator-CLI"
-  url "https://github.com/Chen-Lim/Apple-Health-Resonator-CLI/releases/download/v0.3.1/ahr-macos-arm64"
-  version "0.3.1"
-  sha256 "95e36f8896f1de6aadc5a33e4c3445e9e21c0ac8f6b263702179ade84ff1a302"
+  url "https://github.com/Chen-Lim/Apple-Health-Resonator-CLI/releases/download/v0.3.2/ahr-macos-arm64"
+  version "0.3.2"
+  sha256 "5e0b080f00018f8d308b6daf5ea7fb4e8118a255c5046f3addb614be3df08fbe"
   license "MIT"
 
   depends_on arch: :arm64
