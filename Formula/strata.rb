@@ -1,9 +1,9 @@
 class Strata < Formula
   desc "local strava"
   homepage "https://github.com/Chen-Lim/local-strava"
-  url "https://github.com/Chen-Lim/local-strava/releases/download/v1.0.0/strata-macos-arm64"
-  version "v1.0.0"
-  sha256 "ea0e15b979ec87b2df2f3401324e29565ba137807ffed6a7e98b9f819468442f"
+  url "https://github.com/Chen-Lim/local-strava/releases/download/v1.0.1/strata-macos-arm64"
+  version "v1.0.1"
+  sha256 "1a0d867186dde14c939322de731898a14f961b783870a5ffa689e65c214a9105"
   license "MIT"
 
   depends_on arch: :arm64
